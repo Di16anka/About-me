@@ -1,0 +1,30 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px dashed #5f69a0;
+    border-width: 50px;
+    padding: 20px;
+    background-color: #bbacea;
+
+    &__name {
+        margin-bottom: 35px;
+    }
+
+    &__citation {
+        font-size: 30px;
+        text-align: center;
+        color: #1e297b;
+    }
+}
+
+@media screen and (max-width:1495px) {
+    .content {
+        margin-top: 50px;
+
+        &__name {
+            text-align: center;
+        }
+    }
+}
